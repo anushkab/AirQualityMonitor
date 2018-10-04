@@ -42,7 +42,7 @@ void loop()
 {
   //setColor(255,0,0);
   digitalWrite(ledPower,LOW); // power on the LED
-  delayMicroseconds(samplingTime);
+  delayMicroseconds(samplingTime);//Keep the LED on for these many seconds
  
   voMeasured = analogRead(measurePin); // read the dust value
  
